@@ -17,7 +17,8 @@ app.use(cors(corsOptions));
 app.use((req, res, next) => {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://markelrlopez.com"
+    "https://markelrlopez.com",
+    "http://localhost:4200",
   );
   res.setHeader(
     "Access-Control-Allow-Methods",
