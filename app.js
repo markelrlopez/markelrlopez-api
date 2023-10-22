@@ -15,7 +15,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use(cors({
-  origin: ['http://localhost:4200', 'https://markelrlopez.com'],
+  origin: ['https://markelrlopez.com'],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   maxAge: 7200
